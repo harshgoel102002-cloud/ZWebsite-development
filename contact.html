@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — ZARVETON</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">ZARVETON</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="collections.html">Collections</a>
+                <a href="about.html">About</a>
+                <a href="care.html">Care</a>
+                <a href="contact.html">Contact</a>
+                <a href="collections.html" class="nav-cta">Explore Collections</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Header -->
+    <section class="contact-header">
+        <div class="container-narrow">
+            <h1 class="fade-in">Contact</h1>
+            <p class="contact-intro fade-in-delay-1">For care, availability, and product questions.</p>
+        </div>
+    </section>
+
+    <!-- Contact Methods -->
+    <section class="contact-main">
+        <div class="container-narrow">
+            
+            <!-- Email -->
+            <div class="contact-method fade-in-scroll">
+                <h3>Email</h3>
+                <a href="mailto:Care@Zarveton.com" class="contact-email">Care@Zarveton.com</a>
+                <p>We respond to all inquiries within 24–48 hours.</p>
+            </div>
+
+            <div class="gold-divider"></div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-section fade-in-scroll">
+                <h3>Send us a message</h3>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="collection">Collection of Interest (Optional)</label>
+                        <select id="collection" name="collection">
+                            <option value="">Select a collection</option>
+                            <option value="stemware">Classic Stemware</option>
+                            <option value="bar">Bar Collection</option>
+                            <option value="serveware">Serveware</option>
+                            <option value="champagne">Champagne Flutes</option>
+                            <option value="old-fashioned">Old Fashioned</option>
+                            <option value="hosting-set">Hosting Set</option>
+                            <option value="other">Other / General Inquiry</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+
+            <div class="gold-divider"></div>
+
+            <!-- Additional Info -->
+            <div class="contact-info fade-in-scroll">
+                <h3>What we can help with</h3>
+                <ul>
+                    <li>Product care and maintenance questions</li>
+                    <li>Collection availability and pricing</li>
+                    <li>Custom hospitality orders (hotels, restaurants, venues)</li>
+                    <li>Gift recommendations and sets</li>
+                    <li>Replacement inquiries</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>ZARVETON</h3>
+                    <p>Refined glassware for those who host with intention</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h5>Explore</h5>
+                        <a href="collections.html">Collections</a>
+                        <a href="about.html">About</a>
+                        <a href="care.html">Care</a>
+                    </div>
+                    <div class="footer-column">
+                        <h5>Support</h5>
+                        <a href="contact.html">Contact</a>
+                        <a href="mailto:Care@Zarveton.com">Care@Zarveton.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ZARVETON. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>

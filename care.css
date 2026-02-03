@@ -1,0 +1,132 @@
+/* Care Page Styles */
+
+.care-header {
+    padding: calc(80px + var(--space-3xl)) 0 var(--space-2xl);
+    background-color: var(--off-white);
+    text-align: center;
+}
+
+.care-header h1 {
+    margin-bottom: var(--space-md);
+    color: var(--charcoal);
+}
+
+.care-intro {
+    font-size: 17px;
+    line-height: 1.8;
+    color: rgba(30, 30, 30, 0.8);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Care Content */
+.care-content {
+    padding: var(--space-3xl) 0;
+    background-color: var(--bone-white);
+}
+
+.care-section {
+    margin-bottom: var(--space-2xl);
+}
+
+.care-section h2 {
+    font-size: 36px;
+    margin-bottom: var(--space-xl);
+    color: var(--charcoal);
+}
+
+.care-detail {
+    margin-bottom: var(--space-xl);
+    padding-left: var(--space-md);
+    border-left: 2px solid var(--champagne-gold);
+}
+
+.care-detail h4 {
+    margin-bottom: var(--space-sm);
+    color: var(--charcoal);
+}
+
+.care-detail p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: rgba(30, 30, 30, 0.85);
+    margin-bottom: var(--space-md);
+}
+
+.care-detail p:last-child {
+    margin-bottom: 0;
+}
+
+.care-detail a {
+    color: var(--charcoal);
+    text-decoration: none;
+    border-bottom: 1px solid var(--champagne-gold);
+    transition: var(--transition-fast);
+}
+
+.care-detail a:hover {
+    color: var(--champagne-gold);
+    border-bottom-color: transparent;
+}
+
+/* Care Support */
+.care-support {
+    padding: var(--space-3xl) 0;
+    background-color: var(--forest-green);
+    text-align: center;
+}
+
+.care-support h2 {
+    margin-bottom: var(--space-md);
+    color: var(--champagne-gold);
+}
+
+.care-support p {
+    font-size: 16px;
+    color: rgba(249, 247, 244, 0.85);
+    margin-bottom: var(--space-lg);
+}
+
+.support-email {
+    display: block;
+    font-size: 22px;
+    font-family: var(--font-headline);
+    color: var(--bone-white);
+    text-decoration: none;
+    margin-bottom: var(--space-lg);
+    transition: var(--transition-fast);
+}
+
+.support-email:hover {
+    color: var(--champagne-gold);
+}
+
+.care-support .btn-secondary {
+    background-color: transparent;
+    border-color: var(--bone-white);
+    color: var(--bone-white);
+}
+
+.care-support .btn-secondary:hover {
+    background-color: var(--bone-white);
+    color: var(--forest-green);
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+    .care-intro {
+        font-size: 16px;
+    }
+    
+    .care-section h2 {
+        font-size: 28px;
+    }
+    
+    .care-detail {
+        padding-left: var(--space-sm);
+    }
+    
+    .support-email {
+        font-size: 18px;
+    }
+}
